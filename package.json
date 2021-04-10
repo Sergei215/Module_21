@@ -1,0 +1,14 @@
+{
+  "name": "modue_21",
+  "version": "1.0.0",
+  "description": "Модуль 21. Подключение Webpack и других NPM модулей",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -r sass/style.scss -o css/",
+    "build" : "webpack",
+    "dev": "parcel index.html"
+  },
+  "author": "Polienenko Sergey",
+  "license": "MIT"
+}

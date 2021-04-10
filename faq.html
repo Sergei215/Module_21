@@ -1,0 +1,129 @@
+<!DOCTYPcdE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Тестовая верстка страницы">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <title>SkillDrive | Частые вопросы</title>
+
+</head>
+<body>
+<header>
+    <div class="header-panel_desktop">
+        <div class="header-panel__logo_desktop">
+            <a href=""><img src="src\skilldrive.svg"  alt="SkillDrive"></a>
+        </div>
+        <div class="head-navigation-container_desktop">
+            <nav class="head-navigation-block_desktop">
+                <span class="head-navigation-block__about_desktop"><a href="index.html">О нас</a></span>
+                <span class="head-navigation-block__condition_desktop"><a href="">Условия</a></span>
+                <span class="head-navigation-block__faq_desktop"><a href="faq.html">Частые вопросы</a></span>
+            </nav>
+        </div>
+        <div class="head-navigation-button-container_desktop">
+            <button class="head-navigation-button-container__button_desktop">
+                <a class="head-navigation-button-container__button-text_desktop">Войти</a></button>
+        </div>
+    </div>
+    <div class="header-panel_mobile">
+        <div class="header-panel__logo_mobile">
+            <a href="">
+                <img src="src\skilldrive.svg"  alt="SkillDrive">
+            </a>
+        </div>
+        <details class="head-navigation-block__navigation-logo_mobile">
+            <summary>
+                <a href="">
+                    <img  src="src\Vector.png"  alt="SkillDrive">
+                </a>
+            </summary>
+            <div class="head-navigation-block__about_mobile"><a href="index.html">О нас</a></div>
+            <div class="head-navigation-block__condition_mobile"><a href="">Условия</a></div>
+            <div class="head-navigation-block__faq_mobile"><a href="faq.html">Частые вопросы</a></div>
+            <div class="head-navigation-button-container_mobile">
+                <button class="head-navigation-button-container__button_mobile">                    <a class="head-navigation-button-container__button-text_mobile">Войти</a>
+                </button>
+            </div>
+        </details>
+    </div>
+</header>
+<main>
+    <section class="about-section">
+        <div class="about-section__image">
+            <a><img src="src/undraw_questions_75e0%201.svg" alt="Частые вопросы"></a>
+        </div>
+        <div class="about-section__h1-text">Частые вопросы</div>
+        <div class="about-section__main-text-container">
+            <div class="about-section__main-text">Отвечаем на вопросы, которые у вас могут возникнуть.</div>
+        </div>
+    </section>
+    <section class="question-section">
+        <div class="question-section__answers-block">
+            <button type="button" class="collapsible">Могу ли я отменить бронь?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+            <button type="button" class="collapsible">Могу ли я вернуть деньги, если не подошёл автомобиль?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+            <button type="button" class="collapsible">Что делать, если случилось ДТП?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+            <button type="button" class="collapsible">Могу ли я оставить автомобиль в удобном для меня месте?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+            <button type="button" class="collapsible">Что делать, если собственник просит заплатить ему напрямую?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+            <button type="button" class="collapsible">Должен ли я заправлять автомобиль?</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nostra, luctus pellentesque et varius placerat interdum orci tortor quam, ac suspendisse pretium cras hendrerit rutrum vivamus.</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer_panel">
+    <div class="footer_panel__copyright-container">
+        <a class="footer_panel__copyright-text"> © iSkillDrive Inc. 2021 </a>
+    </div>
+    <div class="footer_panel__social-image-container">
+        <div class="footer_panel__social-image">
+            <a href="http://www.facebook.com"><img src='src/Facebook.png' alt="FaceBook" /></a>
+        </div>
+        <div class="footer_panel__social-image">
+            <a href="https://www.instagram.com/"><img src='src/Instagram.png' alt="Instagramm" /></a>
+        </div>
+        <div class="footer_panel__social-image">
+            <a href="https://vk.com/feed"><img src='src/VK.png' alt="Vkontakte" /></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "flex") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "flex";
+            }
+        });
+    }
+</script>
+<script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.querySelector(".head-navigation-button-container__button_desktop").addEventListener("click",(()=>{alert("Скрипт запустился---!"),console.log("Скрипт работает")}));
